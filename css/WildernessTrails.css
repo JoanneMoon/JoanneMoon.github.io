@@ -1,23 +1,36 @@
 
 
 
-body {
-	font-family: "Helvetica Neue", Helvetica, Arial, Times New Roman;
-	font-size: 12pt;
-	color: #666668;
-	background-color: #EAEAEA;
-	margin-left: 10px;
-	margin-right: 10px;
-	height: 100%;
-	overflow-y: auto;
+body
+{
+    font-family: "Helvetica Neue" , Helvetica, Arial, Times New Roman;
+    font-size: 12pt;
+    color: #000000;
+    background-color: #EAEAEA;
+    margin-left: 10px;
+    margin-right: 10px;
+    height: 100%;
 }
 
 hr
 {
-	clear:both;
-	width:99%;
-	height:0.25em;
-	text-align:left;
+    clear: both;
+    width: 99%;
+    height: 0.25em;
+    text-align: left;
+    background-color: Gray;
+    color: #808080;
+}
+
+table {
+	margin:0;
+	padding:0;
+	border-collapse:collapse;
+}
+
+th { 
+	padding:0.5em;
+	font-weight:bold;
 }
 
 button:focus, button:active,
