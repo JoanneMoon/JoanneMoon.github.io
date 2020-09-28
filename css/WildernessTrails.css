@@ -1,0 +1,37 @@
+
+
+
+body {
+	font-family: "Helvetica Neue", Helvetica, Arial, Times New Roman;
+	font-size: 10pt;
+	color: #666668;
+	background-color: #EAEAEA;
+	margin: 0;
+	height: 100%;
+	overflow-y: auto;
+}
+
+button:focus, button:active,
+input:focus, input:active,
+select:focus, select:active,
+textarea:focus, textarea:active {
+	-moz-box-shadow: #6AAEE1 0 0 7;
+	-webkit-box-shadow: #6AAEE1 0 0 7px;
+	box-shadow: #6AAEE1 0 0 7px;
+	-webkit-transition: -webkit-box-shadow .2s linear;
+}
+
+#titlebar {
+	width: 100%;
+	height: 20px;
+	background-color: #6AAEE1;
+}
+
+#footer {
+	padding: 6px 0px;
+	width: 100%;
+	color: #000000;
+	text-align: left;
+	background-color: #66AAE1;
+	clear: both;
+}
